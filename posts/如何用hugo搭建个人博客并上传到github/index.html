@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>zaker-666的博客  | 如何用hugo搭建个人博客并上传到GITHUB</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.62.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="如何用hugo搭建个人博客并上传到GITHUB" />
+<meta property="og:description" content="1.从GITHUB上下载hugo 下载地址[]( https://github.com/gohugoio/hugo/releases/tag/v0.62.2 )
+2.解压安装并安装 解压安装包到任意盘，将安装包所安装的文件夹添加至windows环境变量中
+3.为hugo添加主题 在安装目录下打开命令行，使用如下命令为hugo 快速安装主题 git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 将主题添加到配置中 在安装文件夹中找到config.toml文件，使用记事本打开，在后面添加theme = &ldquo;ananke&rdquo; 并保存。
+3.新建一篇博客 在命令行运行
+hugo new posts/my-first-post.md 你就可以在安装文件夹中的content/posts文件夹中找到名为my-first-post.md的文件，打开并编辑，编辑完成后修改标题中dratf:ture为draft:false
+4.将博客上传到GITHUB 1.在自己的github中新建一个名为：用户名.github.io的仓库 2.回到hugo安装目录运行如下命令 hugo 3.发现突然出现一个名为public的文件 4.在public的文件夹创建git仓库并将其上传到远程刚刚新建的仓库 5.现在就能在：用户名.github.io的网页上找到自己的博客了 " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github/" />
+<meta property="article:published_time" content="2020-01-06T12:42:36+08:00" />
+<meta property="article:modified_time" content="2020-01-06T12:42:36+08:00" />
+<meta itemprop="name" content="如何用hugo搭建个人博客并上传到GITHUB">
+<meta itemprop="description" content="1.从GITHUB上下载hugo 下载地址[]( https://github.com/gohugoio/hugo/releases/tag/v0.62.2 )
+2.解压安装并安装 解压安装包到任意盘，将安装包所安装的文件夹添加至windows环境变量中
+3.为hugo添加主题 在安装目录下打开命令行，使用如下命令为hugo 快速安装主题 git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 将主题添加到配置中 在安装文件夹中找到config.toml文件，使用记事本打开，在后面添加theme = &ldquo;ananke&rdquo; 并保存。
+3.新建一篇博客 在命令行运行
+hugo new posts/my-first-post.md 你就可以在安装文件夹中的content/posts文件夹中找到名为my-first-post.md的文件，打开并编辑，编辑完成后修改标题中dratf:ture为draft:false
+4.将博客上传到GITHUB 1.在自己的github中新建一个名为：用户名.github.io的仓库 2.回到hugo安装目录运行如下命令 hugo 3.发现突然出现一个名为public的文件 4.在public的文件夹创建git仓库并将其上传到远程刚刚新建的仓库 5.现在就能在：用户名.github.io的网页上找到自己的博客了 ">
+<meta itemprop="datePublished" content="2020-01-06T12:42:36&#43;08:00" />
+<meta itemprop="dateModified" content="2020-01-06T12:42:36&#43;08:00" />
+<meta itemprop="wordCount" content="34">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何用hugo搭建个人博客并上传到GITHUB"/>
+<meta name="twitter:description" content="1.从GITHUB上下载hugo 下载地址[]( https://github.com/gohugoio/hugo/releases/tag/v0.62.2 )
+2.解压安装并安装 解压安装包到任意盘，将安装包所安装的文件夹添加至windows环境变量中
+3.为hugo添加主题 在安装目录下打开命令行，使用如下命令为hugo 快速安装主题 git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 将主题添加到配置中 在安装文件夹中找到config.toml文件，使用记事本打开，在后面添加theme = &ldquo;ananke&rdquo; 并保存。
+3.新建一篇博客 在命令行运行
+hugo new posts/my-first-post.md 你就可以在安装文件夹中的content/posts文件夹中找到名为my-first-post.md的文件，打开并编辑，编辑完成后修改标题中dratf:ture为draft:false
+4.将博客上传到GITHUB 1.在自己的github中新建一个名为：用户名.github.io的仓库 2.回到hugo安装目录运行如下命令 hugo 3.发现突然出现一个名为public的文件 4.在public的文件夹创建git仓库并将其上传到远程刚刚新建的仓库 5.现在就能在：用户名.github.io的网页上找到自己的博客了 "/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      zaker-666的博客
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">如何用hugo搭建个人博客并上传到GITHUB</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-01-06T12:42:36&#43;08:00">January 6, 2020</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="1从github上下载hugo">1.从GITHUB上下载hugo</h1>
+<p>下载地址[]( <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.2">https://github.com/gohugoio/hugo/releases/tag/v0.62.2</a> )</p>
+<h1 id="2解压安装并安装">2.解压安装并安装</h1>
+<p>解压安装包到任意盘，将安装包所安装的文件夹添加至windows环境变量中</p>
+<h1 id="3为hugo添加主题">3.为hugo添加主题</h1>
+<h2 id="在安装目录下打开命令行使用如下命令为hugo-快速安装主题">在安装目录下打开命令行，使用如下命令为hugo 快速安装主题</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+</code></pre></div><h2 id="将主题添加到配置中">将主题添加到配置中</h2>
+<p>在安装文件夹中找到config.toml文件，使用记事本打开，在后面添加theme = &ldquo;ananke&rdquo; 并保存。</p>
+<h1 id="3新建一篇博客">3.新建一篇博客</h1>
+<p>在命令行运行</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new posts/my-first-post.md
+</code></pre></div><p>你就可以在安装文件夹中的content/posts文件夹中找到名为my-first-post.md的文件，打开并编辑，编辑完成后修改标题中dratf:ture为draft:false</p>
+<h1 id="4将博客上传到github">4.将博客上传到GITHUB</h1>
+<h2 id="1在自己的github中新建一个名为用户名githubio的仓库">1.在自己的github中新建一个名为：用户名.github.io的仓库</h2>
+<h2 id="2回到hugo安装目录运行如下命令">2.回到hugo安装目录运行如下命令</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo
+</code></pre></div><h2 id="3发现突然出现一个名为public的文件">3.发现突然出现一个名为public的文件</h2>
+<h2 id="4在public的文件夹创建git仓库并将其上传到远程刚刚新建的仓库">4.在public的文件夹创建git仓库并将其上传到远程刚刚新建的仓库</h2>
+<h2 id="5现在就能在用户名githubio的网页上找到自己的博客了">5.现在就能在：用户名.github.io的网页上找到自己的博客了</h2>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy;  zaker-666的博客 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

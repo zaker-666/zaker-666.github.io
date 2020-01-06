@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://example.org/posts/" />
-<meta property="og:updated_time" content="2020-01-06T11:55:34+08:00" />
+<meta property="og:updated_time" content="2020-01-06T12:42:36+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -89,6 +89,26 @@
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E4%B8%8A%E4%BC%A0%E5%88%B0github/" class="link black dim">
+        如何用hugo搭建个人博客并上传到GITHUB
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      1.从GITHUB上下载hugo 下载地址[]( https://github.com/gohugoio/hugo/releases/tag/v0.62.2 )
+2.解压安装并安装 解压安装包到任意盘，将安装包所安装的文件夹添加至windows环境变量中
+3.为hugo添加主题 在安装目录下打开命令行，使用如下命令为hugo 快速安装主题 git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 将主题添加到配置中 在安装文件夹中找到config.toml文件，使用记事本打开，在后面添加theme = &ldquo;ananke&rdquo; 并保存。
+3.新建一篇博客 在命令行运行
+hugo new posts/my-first-post.md 你就可以在安装文件夹中的content/posts文件夹中找到名为my-first-post.md的文件，打开并编辑，编辑完成后修改标题中dratf:ture为draft:false
+4.将博客上传到GITHUB 1.在自己的github中新建一个名为：用户名.github.io的仓库 2.回到hugo安装目录运行如下命令 hugo 3.发现突然出现一个名为public的文件 4.在public的文件夹创建git仓库并将其上传到远程刚刚新建的仓库 5.现在就能在：用户名.github.io的网页上找到自己的博客了 
+    </div>
+  </div>
+</div>
+</div>
       
         <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
